@@ -31,15 +31,15 @@ fi
 # Check if the group exists.  Important for safety.
 if ! oc get group "$group_name" &> /dev/null; then
   echo "The group '$group_name' does not exist."
-  echo "Creating the goup '$group_name'."
+  echo "Creating the group '$group_name'."
   oc adm groups new $group_name
 fi
 
 # Check if the group is part of admin-cluster role.
 if ! oc get clusterrolebinding "$role_binding_group" &> /dev/null; then
   echo "The group '$role_binding_group' does not exist."
-  echo "Creating the goup '$role_binding_group'."
-  oc create clusterrolebinding $role_binding_group --clusterrole=$cluster_role --group=group_name
+  echo "Creating the group '$role_binding_group'."
+  oc create clusterrolebinding $role_binding_group --clusterrole=$cluster_role --group=$group_name
 fi
 
 
