@@ -1,3 +1,5 @@
+[![Open in Red Hat Dev Spaces](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.rm2.thpm.p1.openshiftapps.com/#https://github.com/michael-bang/devspace-edb/)
+
 # EDB Workshop
 
 ## EDB Workshop Install Instructions on Openshift using Dev Spaces
@@ -26,6 +28,5 @@ In case you run the workshop with more than 20 users, it is recommended to exten
 
 Hint: for 30 workshop users 8 nodes are working well. 
 
-[![Open in Red Hat Dev Spaces](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.rm2.thpm.p1.openshiftapps.com/#https://github.com/michael-bang/devspace-edb/)
 
 
