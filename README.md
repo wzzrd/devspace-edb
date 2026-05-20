@@ -26,6 +26,6 @@ In case you run the workshop with more than 20 users, it is recommended to exten
 
 Hint: for 30 workshop users 8 nodes are working well. 
 
-
+[![Open in Red Hat Dev Spaces](https://docs.redhat.com/en/documentation/red_hat_openshift_dev_spaces/3.27/html/user_guide/images/factory-badge.svg)]([https://devspaces.apps.rm2.thpm.p1.openshiftapps.com/]#https://github.com/michael-bang/devspace-edb)
 
 
