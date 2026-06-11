@@ -12,7 +12,7 @@ projects:
 components:
   - name: kubectl-cnp
     container:
-      image: quay.io/wzzrd/edb-workshop:latest
+      image: quay.io/wzzrd/edb-workshop-image:latest
       memoryLimit: 512Mi
       mountSources: true
       command: ['sleep', 'infinity']
