@@ -1,4 +1,4 @@
-[![Open in Red Hat Dev Spaces](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.rm2.thpm.p1.openshiftapps.com/#https://github.com/michael-bang/devspace-edb/)
+[![Open in Red Hat Dev Spaces](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.cluster-zw9h9.zw9h9.sandbox2643.opentlc.com/#https://github.com/wzzrd/devspace-edb/)
 
 # EDB Workshop
 
@@ -19,7 +19,7 @@
 ## Getting Started with EDB Workshop
 Each user can create its own DevSpaces instance (login to URL for DevSpaces) by using *Create Workspace* and choose 
 - the pre-configured sample: **Postgres on OpenShift Workshop**
-- or create from git repo: ```https://github.com/maschind/devspace-edb.git```
+- or create from git repo: ```https://github.com/wzzrd/devspace-edb.git```
 
 Once you launch your DevSpaces instance, you should have the workshop repository available along with the exercise in the **README.md**. 
 
