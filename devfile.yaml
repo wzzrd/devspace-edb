@@ -6,9 +6,9 @@ projects:
   - name: workshop
     git:
       remotes:
-        origin: 'https://github.com/sergioenterprisedb/edb-postgres-for-kubernetes-in-openshift.git'
+        origin: 'https://github.com/wzzrd/edb-postgres-for-kubernetes-in-openshift.git'
       checkoutFrom:
-        revision: RHDevSpace
+        revision: odf
 components:
   - name: kubectl-cnp
     container:
